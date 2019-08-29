@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#bab7b7"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="3dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/layoutHno">
+
+            <TextView
+                android:id="@+id/lblName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Meenakshi Awasthi"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblHouseno"
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/row_hno_border"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:padding="1dp"
+
+                android:text="87A" />
+
+            <TextView
+                android:id="@+id/lblpmtDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/lblName"
+                android:gravity="right"
+                android:text="20/10/2018" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="22dp"
+            android:layout_toRightOf="@id/layoutHno">
+
+            <TextView
+                android:id="@+id/lblCollType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Maintenance Charge" />
+
+            <TextView
+                android:id="@+id/lblAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginRight="10dp"
+                android:layout_centerInParent="true"
+                android:text="300" />
+
+            <TextView
+                android:id="@+id/lblPmtMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/lblAmount"
+                android:gravity="right"
+                android:text="CASH" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="38dp"
+            android:layout_toRightOf="@id/layoutHno">
+
+            <TextView
+                android:id="@+id/lblCollBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Ripudaman Singh" />
+
+            <TextView
+                android:id="@+id/lblMthYr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/lblTrasNo"
+                android:gravity="right"
+                android:text="JAN-2018" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

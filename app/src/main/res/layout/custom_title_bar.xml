@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:gravity="center">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:src="@drawable/harshvihar" />-->
+
+    <TextView
+        android:id="@+id/Titletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HarshVihar, Residential Society"
+        android:textColor="@color/colorAccent"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_bold"/>
+
+    <TextView
+        android:id="@+id/add_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Titletext"
+        android:text="Greater Noida(West), Chipiyana Buzurg UP 201009"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:fontFamily="@font/roboto_bolditalic" />
+</LinearLayout>

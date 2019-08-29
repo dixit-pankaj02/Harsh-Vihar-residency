@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#bab7b7"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/relLayoutResidentlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layoutHno"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/roundborder"
+            android:padding="1dp">
+
+            <TextView
+                android:id="@+id/lblHouseno"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/row_hno_border"
+                android:gravity="center"
+                android:padding="1dp"
+
+                android:text="52A"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/layoutHno">
+
+            <TextView
+                android:id="@+id/lblName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Pankaj Dixit"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblNos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/lblName"
+                android:gravity="right"
+                android:text="4" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:layout_toRightOf="@id/layoutHno">
+
+            <TextView
+                android:id="@+id/lblMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="8506858311" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/lblemailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="42dp"
+            android:layout_toRightOf="@id/layoutHno"
+            android:gravity="left"
+            android:text="pankaj.dixit@gmail.com" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
